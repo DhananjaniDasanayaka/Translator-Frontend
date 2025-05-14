@@ -1,0 +1,71 @@
+.Links {
+  margin: 0 25px;
+}
+
+.Links1 {
+  margin-left: 450px;
+}
+.Links2 {
+  margin-left: 30px;
+}
+
+.header-container {
+  text-decoration: underline;
+  display: flex;
+  flex-wrap: nowrap;
+  border: 0.1px solid #008e7b86;
+  background-image: linear-gradient(to right, #325165, #5f99b7);
+  text-decoration: double;
+  justify-content: center;
+  padding: 35px;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+.span {
+  font-family: monospace;
+  text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.668);
+  font-size: 15px;
+  transition: color 0.15s ease;
+}
+
+.span:hover {
+  text-shadow: 9px 9px 8px rgb(0, 0, 0); /* Add shadow effect */
+  color: rgb(0, 0, 0); /* Change the color on hover */
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+  border: 2px solid #008e7b;
+  margin-left: -60px;
+  margin-bottom: -50px;
+  filter: brightness(0.8);
+}
+
+.profile-span,
+.logout-span {
+  font-size: 15px;
+  text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.421);
+  font-family: monospace;
+  transition: color 0.15s ease;
+}
+
+.logout-span:hover {
+  text-shadow: 9px 9px 8px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.profile-span:hover {
+  text-shadow: 9px 9px 8px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+.headericons {
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: -5px;
+  color: #000000b8;
+}
